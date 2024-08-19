@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>My New Hugo Site</title>
+<title>little big bytes</title>
 
 <meta name="description" content="">
 <meta name="author" content="">
@@ -75,7 +75,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="little big bytes (Alt + H)">little big bytes</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -104,10 +104,25 @@
     </nav>
 </header>
 <main class="main"> 
+
+<article class="first-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Benchmarking basic IO functions on Linux
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi there!
+I am working on a database, particularly building the storage engine(https://github.com/lnikon/tinykvpp) right now, and I assigned myself the task of creating separate file abstractions(e.g. I really like how it is done in leveldb, thus having RandomAccessFile, SequentialFile, AppendOnlyFile, etc…).
+So, while designing my approach to this, I started evaluating my current way of doing file IO - fstreams versus plain POSIX write(), and simple Google benchmark:
+static void BM_BenchmarkFstreamWrite(benchmark::State &amp; state) { const std::string filename(&#34;test_stream....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-08-20 00:32:37 +0400 +04'>August 20, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to Benchmarking basic IO functions on Linux" href="http://localhost:1313/posts/benchmarking_basic_io_functions_on_linux/"></a>
+</article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2024 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2024 <a href="http://localhost:1313/">little big bytes</a></span> · 
 
     <span>
         Powered by

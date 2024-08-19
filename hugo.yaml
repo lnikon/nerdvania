@@ -1,5 +1,5 @@
-baseURL: https://example.org/
+baseURL: https://nerdvania.blog/
 languageCode: en-us
-title: My New Hugo Site
+title: little big bytes
 theme: ["PaperMod"]
 
