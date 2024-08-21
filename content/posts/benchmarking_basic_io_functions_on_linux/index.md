@@ -5,12 +5,14 @@ draft = false
 tags = ['linux', 'io', 'benchmark', 'cpp']
 +++
 
+## Intro
 Hi there!
 
 I am working on a database, particularly building the storage engine(https://github.com/lnikon/tinykvpp) right
 now, and I assigned myself the task of creating separate file abstractions(e.g.
 I really like how it is done in leveldb, thus having RandomAccessFile, SequentialFile, AppendOnlyFile, etc...).
 
+## Buffered IO versus System IO
 So, while designing my approach to this, I started evaluating my current way of doing file IO - fstreams
 versus plain POSIX write(), and simple Google benchmark:
 
@@ -106,6 +108,8 @@ shows following result:
 
     BM_BenchmarkPosixWrite 2001 ns 2001 ns 356052
 ```
+
+## Payload size and std::fstream buffering
 
 So, simple POSIX write() is slower almost 100 times. This result really shocked me.
 I decided to strace the program and saw that for sufficiently big
@@ -219,10 +223,11 @@ strace:
 Strace just shows a ton of calls to write: exactly what I expected when std::fstream::write()-ing
 into the stream.
 
+## Manual IO vectorizaton via writev()
 And the last experiment was to benchmark explicitly vectorized IO against fstream.
 
 ```cpp
-std::vector < iovec > iov;
+std::vector <iovec> iov;
 std::string payload("bbbbb");
 for (
   auto _: state) {
