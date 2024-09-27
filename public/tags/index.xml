@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on nerdvania</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://nerdvania.blog/tags/</link>
     <description>Recent content in Tags on nerdvania</description>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 20 Aug 2024 00:32:37 +0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nerdvania.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Benchmark</title>
-      <link>http://localhost:1313/tags/benchmark/</link>
+      <title>benchmark</title>
+      <link>https://nerdvania.blog/tags/benchmark/</link>
       <pubDate>Tue, 20 Aug 2024 00:32:37 +0400</pubDate>
-      <guid>http://localhost:1313/tags/benchmark/</guid>
+      <guid>https://nerdvania.blog/tags/benchmark/</guid>
       <description></description>
     </item>
     <item>
-      <title>Cpp</title>
-      <link>http://localhost:1313/tags/cpp/</link>
+      <title>cpp</title>
+      <link>https://nerdvania.blog/tags/cpp/</link>
       <pubDate>Tue, 20 Aug 2024 00:32:37 +0400</pubDate>
-      <guid>http://localhost:1313/tags/cpp/</guid>
+      <guid>https://nerdvania.blog/tags/cpp/</guid>
       <description></description>
     </item>
     <item>
-      <title>Io</title>
-      <link>http://localhost:1313/tags/io/</link>
+      <title>io</title>
+      <link>https://nerdvania.blog/tags/io/</link>
       <pubDate>Tue, 20 Aug 2024 00:32:37 +0400</pubDate>
-      <guid>http://localhost:1313/tags/io/</guid>
+      <guid>https://nerdvania.blog/tags/io/</guid>
       <description></description>
     </item>
     <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
+      <title>linux</title>
+      <link>https://nerdvania.blog/tags/linux/</link>
       <pubDate>Tue, 20 Aug 2024 00:32:37 +0400</pubDate>
-      <guid>http://localhost:1313/tags/linux/</guid>
+      <guid>https://nerdvania.blog/tags/linux/</guid>
       <description></description>
     </item>
   </channel>

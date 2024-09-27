@@ -114,7 +114,6 @@ shows following result:
 So, simple POSIX write() is slower almost 100 times. This result really shocked me.
 I decided to strace the program and saw that for sufficiently big
 inputs std::fstream::write's got vectorized! What do I mean by 'sufficiently big input'?
-Well, the payload length is only e.g. 3 chars, then fstream does a
 
 Let's examine the following small programs and their straces.
 To simulate the load I wrapped the write() into a while loop.

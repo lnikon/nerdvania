@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/benchmark/</loc>
+    <loc>https://nerdvania.blog/tags/benchmark/</loc>
     <lastmod>2024-08-20T00:32:37+04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/benchmarking_basic_io_functions_on_linux/</loc>
+    <loc>https://nerdvania.blog/posts/benchmarking_basic_io_functions_on_linux/</loc>
     <lastmod>2024-08-20T00:32:37+04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cpp/</loc>
+    <loc>https://nerdvania.blog/tags/cpp/</loc>
     <lastmod>2024-08-20T00:32:37+04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/io/</loc>
+    <loc>https://nerdvania.blog/tags/io/</loc>
     <lastmod>2024-08-20T00:32:37+04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://nerdvania.blog/tags/linux/</loc>
     <lastmod>2024-08-20T00:32:37+04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://nerdvania.blog/</loc>
     <lastmod>2024-08-20T00:32:37+04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://nerdvania.blog/posts/</loc>
     <lastmod>2024-08-20T00:32:37+04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://nerdvania.blog/tags/</loc>
     <lastmod>2024-08-20T00:32:37+04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://nerdvania.blog/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://nerdvania.blog/categories/</loc>
   </url>
 </urlset>

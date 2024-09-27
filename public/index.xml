@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nerdvania</title>
-    <link>http://localhost:1313/</link>
+    <link>https://nerdvania.blog/</link>
     <description>Recent content on nerdvania</description>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 20 Aug 2024 00:32:37 +0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nerdvania.blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Benchmarking basic IO functions on Linux</title>
-      <link>http://localhost:1313/posts/benchmarking_basic_io_functions_on_linux/</link>
+      <link>https://nerdvania.blog/posts/benchmarking_basic_io_functions_on_linux/</link>
       <pubDate>Tue, 20 Aug 2024 00:32:37 +0400</pubDate>
-      <guid>http://localhost:1313/posts/benchmarking_basic_io_functions_on_linux/</guid>
-      <description>Intro Hi there!
-I am working on a database, particularly building the storage engine(https://github.com/lnikon/tinykvpp) right now, and I assigned myself the task of creating separate file abstractions(e.g. I really like how it is done in leveldb, thus having RandomAccessFile, SequentialFile, AppendOnlyFile, etc&amp;hellip;).
-Buffered IO versuse System IO So, while designing my approach to this, I started evaluating my current way of doing file IO - fstreams versus plain POSIX write(), and simple Google benchmark:</description>
+      <guid>https://nerdvania.blog/posts/benchmarking_basic_io_functions_on_linux/</guid>
+      <description>Intro Hi there!&#xA;I am working on a database, particularly building the storage engine(https://github.com/lnikon/tinykvpp) right now, and I assigned myself the task of creating separate file abstractions(e.g. I really like how it is done in leveldb, thus having RandomAccessFile, SequentialFile, AppendOnlyFile, etc&amp;hellip;).&#xA;Buffered IO versus System IO So, while designing my approach to this, I started evaluating my current way of doing file IO - fstreams versus plain POSIX write(), and simple Google benchmark:</description>
+    </item>
+    <item>
+      <title>Archive</title>
+      <link>https://nerdvania.blog/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nerdvania.blog/archives/</guid>
+      <description>archives</description>
     </item>
   </channel>
 </rss>
